@@ -10,12 +10,10 @@
   ],
   "env": {
     "DEEPSEEK_API_KEY": {
-      "description": "DeepSeek API Key, from platform.deepseek.com",
-      "value": "sk-b56ac4cfdb5d4d4ab018dd175b4e5e07"
+      "description": "DeepSeek API Key, from platform.deepseek.com"
     },
     "FORTUNE_API_KEY": {
-      "description": "自定一个密钥，前端请求时带上，防止被人刷",
-      "value": "0c6b432c8a2e16960eca51a9"
+      "description": "自定一个密钥，前端请求时带上，防止被人刷"
     }
   }
 }

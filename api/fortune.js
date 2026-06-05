@@ -143,7 +143,7 @@ export default async function handler(req, res) {
 
     const client = new OpenAI({
       baseURL: "https://api.deepseek.com",
-      apiKey: process.env.DEEPSEEK_API_KEY || "sk-b56ac4cfdb5d4d4ab018dd175b4e5e07",
+      apiKey: process.env.DEEPSEEK_API_KEY,
     });
 
     const stream = await client.chat.completions.create({
